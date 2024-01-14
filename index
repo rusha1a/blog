@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogging Website</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <style>
+        .post {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+        }
+        .post-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .post-date {
+            font-size: 14px;
+            color: #888;
+            margin-bottom: 10px;
+        }
+        .post-content {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="my-4">Welcome to our Blogging Website</h1>
+        <div class="post">
+            <div class="post-title">
+                Post Title
+            </div>
+            <div class="post-date">
+                Posted on: Jan 1, 2020
+            </div>
+            <div class="post-content">
+                This is the content of the post.
+            </div>
+        </div>
+        <div class="post">
+            <div class="post-title">
+                Post Title 2
+            </div>
+            <div class="post-date">
+                Posted on: Jan 2, 2020
+            </div>
+            <div class="post-content">
+                This is the content of the second post.
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>
